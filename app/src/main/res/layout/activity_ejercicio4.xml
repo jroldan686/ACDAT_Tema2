@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jrl.acdat.acdat_tema2.Ejercicio4Activity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduzca una URL:"
+        android:id="@+id/txvURL" />
+
+    <EditText
+        android:id="@+id/edt_URL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Introduce la URL"
+        android:text="http://" >
+
+        <requestFocus />
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rd_Java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Java.net" />
+
+        <RadioButton
+            android:id="@+id/rd_AAHC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAHC"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rd_Volley"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volley"
+            android:checked="true" />
+
+        <Button
+            android:id="@+id/btn_Conectar"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="Conectar" />
+    </RadioGroup>
+
+    <WebView
+        android:id="@+id/webVista"
+        android:layout_width="match_parent"
+        android:layout_height="314dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txvDuracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+    </LinearLayout>
+
+</LinearLayout>

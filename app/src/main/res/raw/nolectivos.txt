@@ -1,0 +1,25 @@
+12/10/2017:Fiesta Nacional de España
+01/11/2017:Todos los Santos
+06/12/2017:Constitución
+08/12/2017:Inmaculada Concepción
+26/12/2017:Vacaciones Navidad
+27/12/2017:Vacaciones Navidad
+28/12/2017:Vacaciones Navidad
+29/12/2017:Vacaciones Navidad
+30/12/2017:Vacaciones Navidad
+31/12/2017:Vacaciones Navidad
+01/01/2018:Vacaciones Navidad
+02/01/2018:Vacaciones Navidad
+03/01/2018:Vacaciones Navidad
+04/01/2018:Vacaciones Navidad
+05/01/2018:Vacaciones Navidad
+27/02/2018:Semana Blanca
+28/02/2018:Semana Blanca
+01/03/2018:Semana Blanca
+02/03/2018:Semana Blanca
+26/02/2018:Día de la Comunidad Educativa
+28/02/2018:Día de Andalucía
+26/03/2018:Vacaciones Semana Santa
+27/03/2018:Vacaciones Semana Santa
+28/03/2018:Vacaciones Semana Santa
+01/05/2018:Fiesta del Trabajo

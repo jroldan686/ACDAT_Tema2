@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jrl.acdat.acdat_tema2.Ejercicio3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txvCurso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Curso 2017-2018"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txvFechaInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona la fecha de inicio:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+        <DatePicker
+            android:id="@+id/dtpFechaInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:calendarViewShown="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txvFechaFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona la fecha de fin:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+        <DatePicker
+            android:id="@+id/dtpFechaFin"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:calendarViewShown="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnObtenerLectivos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Obtener días lectivos" />
+
+        <TextView
+            android:id="@+id/txvEsHoyLectivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="¿Es hoy lectivo?"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txvDiasLectivos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Días lectivos:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lsvLectivos"/>
+
+    </LinearLayout>
+
+</LinearLayout>

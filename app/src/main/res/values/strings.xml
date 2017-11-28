@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ACDAT_Tema2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ejercicio1">Ejercicio1Activity</string>
+    <string name="title_activity_ejercicio2">Ejercicio2Activity</string>
+    <string name="title_activity_ejercicio3">Ejercicio3Activity</string>
+    <string name="title_activity_ejercicio4">Ejercicio4Activity</string>
+    <string name="title_activity_ejercicio5">Ejercicio5Activity</string>
+    <string name="title_activity_ejercicio6">Ejercicio6Activity</string>
+    <string name="title_activity_ejercicio1_verdatos">ejercicio1_verdatos</string>
+    <string name="title_activity_ejercicio7">Ejercicio7Activity</string>
+</resources>
