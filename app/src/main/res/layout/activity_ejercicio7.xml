@@ -7,15 +7,30 @@
     android:orientation="vertical"
     tools:context="jrl.acdat.acdat_tema2.Ejercicio7Activity">
 
-    <Button
-        android:id="@+id/btnAbrir"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Abrir" />
-
     <TextView
-        android:id="@+id/txvInfo"
+        android:id="@+id/txvInformacion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Info" />
+        android:text="Información" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAbrir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Abrir" />
+
+        <Button
+            android:id="@+id/btnSubir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Subir" />
+    </LinearLayout>
+
 </LinearLayout>
