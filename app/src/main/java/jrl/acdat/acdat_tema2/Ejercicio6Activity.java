@@ -21,7 +21,7 @@ import java.io.InputStreamReader;
 
 public class Ejercicio6Activity extends Activity implements View.OnClickListener {
 
-    public static final String RUTAFICHERO = "http://192.168.1.5/curso1617/cambio.txt";
+    public static final String RUTAFICHERO = "https://alumno.mobi/~alumno/superior/roldan/cambio.txt";
 
     EditText euros, dolares;
     RadioButton eurDolar, dolarEur;

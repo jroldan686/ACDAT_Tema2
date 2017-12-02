@@ -24,11 +24,12 @@ import java.util.ArrayList;
 
 public class Ejercicio5Activity extends Activity implements View.OnClickListener {
 
+    public static final String RUTAFICHERO = "https://alumno.mobi/~alumno/superior/roldan/enlaces.txt";
+
     TextView txvTituloEjercicio5, txvRutaFichero;
     EditText edtRutaFichero;
     ImageView imgvImagen;
     Button btnDescargar, btnAnterior, btnSiguiente;
-    String fichero = "http://192.168.1.5/curso1617/enlaces.txt";
     String rutaFichero;
     ArrayList<String> rutasImagenes;
     int contador = 0;
@@ -50,7 +51,7 @@ public class Ejercicio5Activity extends Activity implements View.OnClickListener
         btnSiguiente = (Button)findViewById(R.id.btnSiguiente);
         btnSiguiente.setOnClickListener(this);
 
-        edtRutaFichero.setText(fichero);
+        edtRutaFichero.setText(RUTAFICHERO);
 
         btnSiguiente.setEnabled(false);
         btnAnterior.setEnabled(false);
