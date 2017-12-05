@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 public class Ejercicio5Activity extends Activity implements View.OnClickListener {
 
-    public static final String RUTAFICHERO = "https://alumno.mobi/~alumno/superior/roldan/enlaces.txt";
+    public static final String RUTAFICHERO = "http://alumno.mobi/~alumno/superior/roldan/enlaces.txt";
 
     TextView txvTituloEjercicio5, txvRutaFichero;
     EditText edtRutaFichero;

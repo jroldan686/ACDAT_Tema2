@@ -23,7 +23,7 @@ public class Ejercicio7Activity extends Activity {
 
     private static final int ABRIRFICHERO_REQUEST_CODE = 1;
     public static final String PASSWORD = "alumno2017";
-    public static final String WEB = "https://alumno.mobi/~alumno/superior/roldan/upload.php";
+    public static final String WEB = "http://alumno.mobi/~alumno/superior/roldan/upload.php";
 
     private TextView txvInformacion;
     private Button btnAbrir;
